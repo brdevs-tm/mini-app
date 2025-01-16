@@ -1,0 +1,13 @@
+{
+  "name": "payment-system",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "concurrently \"cd backend && node index.js\" \"cd frontend && npm run dev\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "concurrently": "^7.0.0"
+  }
+}
